@@ -12,8 +12,6 @@
 		C36918BC29428D0E00BFCB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36918BB29428D0E00BFCB0C /* Assets.xcassets */; };
 		C36918BF29428D0E00BFCB0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36918BE29428D0E00BFCB0C /* Preview Assets.xcassets */; };
 		C36918C929428D0E00BFCB0C /* FastyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36918C829428D0E00BFCB0C /* FastyTests.swift */; };
-		C36918D329428D0E00BFCB0C /* FastyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36918D229428D0E00BFCB0C /* FastyUITests.swift */; };
-		C36918D529428D0E00BFCB0C /* FastyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36918D429428D0E00BFCB0C /* FastyUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		C36918C429428D0E00BFCB0C /* FastyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36918C829428D0E00BFCB0C /* FastyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastyTests.swift; sourceTree = "<group>"; };
 		C36918CE29428D0E00BFCB0C /* FastyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C36918D229428D0E00BFCB0C /* FastyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastyUITests.swift; sourceTree = "<group>"; };
-		C36918D429428D0E00BFCB0C /* FastyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +72,6 @@
 			children = (
 				C36918B629428D0C00BFCB0C /* Fasty */,
 				C36918C729428D0E00BFCB0C /* FastyTests */,
-				C36918D129428D0E00BFCB0C /* FastyUITests */,
 				C36918B529428D0C00BFCB0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				C36918C829428D0E00BFCB0C /* FastyTests.swift */,
 			);
 			path = FastyTests;
-			sourceTree = "<group>";
-		};
-		C36918D129428D0E00BFCB0C /* FastyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C36918D229428D0E00BFCB0C /* FastyUITests.swift */,
-				C36918D429428D0E00BFCB0C /* FastyUITestsLaunchTests.swift */,
-			);
-			path = FastyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C36918D529428D0E00BFCB0C /* FastyUITestsLaunchTests.swift in Sources */,
-				C36918D329428D0E00BFCB0C /* FastyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
