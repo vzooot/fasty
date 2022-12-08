@@ -22,13 +22,6 @@
 			remoteGlobalIDString = C36918B329428D0C00BFCB0C;
 			remoteInfo = Fasty;
 		};
-		C36918CF29428D0E00BFCB0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C36918AC29428D0C00BFCB0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C36918B329428D0C00BFCB0C;
-			remoteInfo = Fasty;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +32,6 @@
 		C36918BE29428D0E00BFCB0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C36918C429428D0E00BFCB0C /* FastyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36918C829428D0E00BFCB0C /* FastyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastyTests.swift; sourceTree = "<group>"; };
-		C36918CE29428D0E00BFCB0C /* FastyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,13 +43,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C36918C129428D0E00BFCB0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C36918CB29428D0E00BFCB0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +66,6 @@
 			children = (
 				C36918B429428D0C00BFCB0C /* Fasty.app */,
 				C36918C429428D0E00BFCB0C /* FastyTests.xctest */,
-				C36918CE29428D0E00BFCB0C /* FastyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +135,6 @@
 			productReference = C36918C429428D0E00BFCB0C /* FastyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C36918CD29428D0E00BFCB0C /* FastyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C36918DE29428D0E00BFCB0C /* Build configuration list for PBXNativeTarget "FastyUITests" */;
-			buildPhases = (
-				C36918CA29428D0E00BFCB0C /* Sources */,
-				C36918CB29428D0E00BFCB0C /* Frameworks */,
-				C36918CC29428D0E00BFCB0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C36918D029428D0E00BFCB0C /* PBXTargetDependency */,
-			);
-			name = FastyUITests;
-			productName = FastyUITests;
-			productReference = C36918CE29428D0E00BFCB0C /* FastyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,10 +149,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					C36918C329428D0E00BFCB0C = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = C36918B329428D0C00BFCB0C;
-					};
-					C36918CD29428D0E00BFCB0C = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = C36918B329428D0C00BFCB0C;
 					};
@@ -207,7 +169,6 @@
 			targets = (
 				C36918B329428D0C00BFCB0C /* Fasty */,
 				C36918C329428D0E00BFCB0C /* FastyTests */,
-				C36918CD29428D0E00BFCB0C /* FastyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C36918C229428D0E00BFCB0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C36918CC29428D0E00BFCB0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,13 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C36918CA29428D0E00BFCB0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = C36918B329428D0C00BFCB0C /* Fasty */;
 			targetProxy = C36918C529428D0E00BFCB0C /* PBXContainerItemProxy */;
-		};
-		C36918D029428D0E00BFCB0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C36918B329428D0C00BFCB0C /* Fasty */;
-			targetProxy = C36918CF29428D0E00BFCB0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -491,42 +433,6 @@
 			};
 			name = Release;
 		};
-		C36918DF29428D0E00BFCB0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B637BE2R39;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.woqomoqo.FastyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fasty;
-			};
-			name = Debug;
-		};
-		C36918E029428D0E00BFCB0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B637BE2R39;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.woqomoqo.FastyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fasty;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,15 +459,6 @@
 			buildConfigurations = (
 				C36918DC29428D0E00BFCB0C /* Debug */,
 				C36918DD29428D0E00BFCB0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C36918DE29428D0E00BFCB0C /* Build configuration list for PBXNativeTarget "FastyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C36918DF29428D0E00BFCB0C /* Debug */,
-				C36918E029428D0E00BFCB0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
